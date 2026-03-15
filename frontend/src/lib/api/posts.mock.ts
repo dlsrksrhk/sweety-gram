@@ -67,7 +67,7 @@ export async function fetchPostDetail(id: string): Promise<Post> {
     return {
         id,
         author: {...MOCK_AUTHOR, id: `user-${(idx % 3) + 1}`, username: `user${(idx % 3) + 1}`},
-        imageUrl: `https://picsum.photos/seed/${id}/600/600`,
+        imageUrl: `https://picsum.photos/seed/post${idx}/600/600`,
         caption: `게시물 ${idx}번째 캡션입니다. 오늘도 좋은 하루 보내세요! 🌟`,
         likesCount: idx * 3,
         commentsCount: idx,
@@ -83,7 +83,7 @@ export async function updatePost(id: string, caption: string): Promise<Post> {
     return {
         id,
         author: MOCK_AUTHOR,
-        imageUrl: `https://picsum.photos/seed/${id}/600/600`,
+        imageUrl: `https://picsum.photos/seed/post${idx}/600/600`,
         caption,
         likesCount: idx * 3,
         commentsCount: idx,
