@@ -4,7 +4,11 @@
       "Bash(npm install:*)",
       "Bash(npm list:*)",
       "Bash(npm run:*)",
-      "Bash(claude mcp:*)"
+      "Bash(claude mcp:*)",
+      "mcp__shrimp-task-manager__plan_task",
+      "mcp__shrimp-task-manager__analyze_task",
+      "mcp__shrimp-task-manager__reflect_task",
+      "mcp__shrimp-task-manager__split_tasks"
     ]
   }
 }

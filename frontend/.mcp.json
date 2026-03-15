@@ -4,9 +4,9 @@
       "command": "node",
       "args": ["C:/dev/mcp-shrimp-task-manager/dist/index.js"],
       "env": {
-        "DATA_DIR": "./shrimp_data",
+        "DATA_DIR": "C:/dev/git/sweety-gram/frontend/shrimp_data",
         "TEMPLATES_USE": "en",
-        "ENABLE_GUI": "false"
+        "ENABLE_GUI": "true"
       }
     }
   }
