@@ -1,7 +1,7 @@
-import type { User } from './user'
+import type {User} from './user'
 
 export interface Follow {
-  follower: User
-  following: User
-  createdAt: string
+    follower: User
+    following: User
+    createdAt: string
 }

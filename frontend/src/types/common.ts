@@ -1,4 +1,4 @@
 export interface PaginatedResponse<T> {
-  data: T[]
-  nextCursor: string | undefined
+    data: T[]
+    nextCursor: string | undefined
 }
